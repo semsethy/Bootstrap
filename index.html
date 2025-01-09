@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal University of Phnom Penh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .carousel-caption {
+            position: absolute;
+            bottom: 20px; 
+            left: 15%; 
+            right: 15%;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px; 
+        }
+        .logo img {
+            max-width: 150px; 
+            height: auto;
+        }
+        .header1 header {
+            margin: 0; 
+        }
+        .carousel-caption p {
+            color: white; 
+            backdrop-filter: blur(5px); 
+        }
+
+        #navbar1 .nav-link {
+            color: brown;
+            padding: 10px;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 0.8em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #navbar1 .nav-link:hover {
+            color: rgb(2, 2, 2) !important;
+        }
+
+        #nav2 {
+            background-color: brown;
+        }
+        .nav-item .nav-link {
+            text-decoration: underline;
+            text-decoration-style: dotted; 
+        }
+        .nav-item .nav-link:hover {
+            text-decoration: none; 
+        }
+        #nav2 .nav-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            padding: 10px 0;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 0.8em;
+        }
+
+        #nav2 .nav-link:hover {
+            background-color: rgba(230, 144, 15, 0.936);
+            color: #ffa600;
+        }
+        
+        #slides img {
+            width: 100%;
+            height: auto;
+        }
+
+        .caption {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        .container {
+            width: 100%; 
+            margin: 0 auto;
+        }
+        .separator {
+            position: absolute;
+            margin-top: -29px;
+            line-height: 1;
+        }
+        /* Responsive styling for small screens */
+        @media (max-width: 768px) {
+            .head2 {
+                flex-direction: column;
+                text-align: center;
+            }
+            .head2 .logo {
+                margin-bottom: 10px;
+            }
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .container .row {
+                margin-bottom: 20px;
+            }
+            .col-8, .col-4 {
+                width: 100% !important;
+                margin-bottom: 20px;
+            }
+            .nav-link {
+                padding: 8px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+  <div class="container">
+        <nav class="navbar navbar-expand-md" id="navbar1" style="background-color: rgb(237, 237, 237);">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+                aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">PROJECT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="management.html">MANAGEMENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="foundation.html">FOUNDATION STUDIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iro.html">IRO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="graduate.html">GRADUATE PROGRAMS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="elibrary.html">E-LIBRARY</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+  
+  <div class="container text-black text-center">
+    <div class="head2 d-flex align-items-center" style="background-color: rgb(237, 237, 237);padding-right: 10px;">
+      <div class="logo me-3">
+        <img src="/images/rupp_logo.png" alt="rupp_logo"> 
+      </div>
+      <div class="header1">
+        <header class="h5 py-3" style="font-size: 1.3rem;">សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ</header> 
+        <header class="h6 py-3" style="font-size: 0.8rem;">ROYAL UNIVERSITY OF PHNOM PENH</header> 
+      </div>
+      <div class="ms-auto align-self-end">
+        <h6 style="font-size: 1em;color: #895a03;">Education, Research, and Service to Society</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="container pt-3">
+    <div class="row">
+      <div class="col-12">
+        <nav class="nav justify-content-center" id="nav2">
+          <a class="nav-link active text-white" href="science.html">FACULTY OF SCIENCE</a>
+          <a class="nav-link active text-white" href="humanities.html">FACULTY OF SOCIAL SCIENCE AND HUMANITIES</a>
+          <a class="nav-link active text-white" href="engineering.html">FACULTY OF ENGINEERING</a>
+          <a class="nav-link active text-white" href="studies.html">FACULTY OF DEVELOPMENT STUDIES</a>
+          <a class="nav-link active text-white" href="education.html">FACULTY OF EDUCATION</a>
+          <a class="nav-link active text-white" href="language.html">INSTITUTE OF FOREIGN LANGUAGES</a>
+          <a class="nav-link active text-white" href="policy.html">INSTITUTE OF INTERNATIONAL STUDIES AND PUBLIC POLICY</a>
+          <a class="nav-link active text-white" href="centers.html">CENTERS</a>
+          <a class="nav-link active text-white" href="offices.html">OFFICES</a>
+          <a class="nav-link active text-white" href="https://rupp.edu.kh/ICN-2DMP-QGC/" target="_blank">CONFERENCES</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container pt-3">
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15" aria-label="Slide 16"></button>
+          </div>
+          <div class="carousel-inner" style="height: auto;">
+
+            <div class="carousel-item active">
+              <img src="../images/silk1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/silk2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/silk3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/silk4.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the fourth slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/slider02.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the fifth slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/slider1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the sixth slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/slider2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the seventh slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/slideshow.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the eighth slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/slideshow01.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the ninth slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/solar.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the tenth slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/charity.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the eleventh slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/charity1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the twelfth slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/commnunity_event.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the thirteenth slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/community_event1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the fourteenth slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/hydroponics.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the fifteenth slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="../images/hydroponics1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Some representative placeholder content for the sixteenth slide.</p>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+            
+  <div class="container pt-3">
+    <div class="row">
+      <div class="col-8 gx-4 gy-1">
+        <div class="row">
+          <div class="col-12 col-md-6 mb-3">
+            <div style="height:100%;background-color: rgb(237, 237, 237);border: 1px solid rgb(171, 170, 170); border-top: 5px solid brown;">
+              <p class="p-3 fs-6  text-left">សេចក្ដីជូនដំណឹង</p>
+              <img class="p-3" src="/images/invitation.jpg" alt="invitation" style="width: 70%; height: auto;">
+            </div>
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+              <div style="height:100%;background-color: rgb(237, 237, 237);border: 1px solid rgb(171, 170, 170); border-top: 5px solid brown;">
+                <p class="p-3 fs-6  text-left">SCHOLARSHIP</p>
+                <ul>
+                  <li style="color: brown; font-size: 0.85em;">Higher Education for ASEAN Talents (HEAT)<br><span style="color: rgb(79, 77, 77); font-size:0.7em;"><i>Posted: 2022-01-10 00:00:00</i></span></li>
+                  <li style="color: brown; font-size: 0.85em;">Nankai University Scholarship<br><span style="color: rgb(79, 77, 77); font-size:0.7em;"><i>Posted: 2017-05-25 13:00:56</i></span></li>
+                  <li style="color: brown; font-size: 0.85em;">UTAR Scholarship for CLMV Countries 2017-2018<br><span style="color: rgb(79, 77, 77); font-size:0.7em;"><i>Posted: 2017-05-11 14:45:19</i></span></li>
+                  <li style="color: brown; font-size: 0.85em;">Scholarship at Hong Kong Polytechnic University<br><span style="color: rgb(79, 77, 77); font-size:0.7em;"><i>Posted: 2016-10-11 15:53:02</i></span></li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="col-12 gy-4">
+            <div style="height:100%; width: 100%;background-color: rgb(237, 237, 237);border: 1px solid rgb(171, 170, 170); border-top: 5px solid brown;">
+              <p class="p-3 fs-6  text-left">UNIVERSITY NEWS</p>
+              <div class="row">
+                <div class="col-8">
+                  <div class="col-12 mb-4">
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <img class="p-3" style="width: 100%; height: auto;" src="/images/169_2_Job Fair 2023.jpg" alt="job">
+                      </div>
+                      <div class="col-12 col-md-6 pt-4 p-4">
+                        <p style="font-size: 0.9em; color: brown;">ពិព័ណ៌ការងារឆ្នាំ២០២៣</p>
+                        <p style="font-size: 0.6em;"><i>2023-12-07 03:29:53</i></p>
+                        <p style="font-size: 0.8em;">ជួបគ្នាជាថ្មីនៅក្នុងកម្មវិធី " CJCC ពិព័រណ៍ការងារ ខែធ្នូ ឆ្នាំ២០២៣ " ដែលរៀបចំឡើងដោយ មជ្ឈមណ្ឌលសហប្រតិបត្ដិការកម្ពុជា-ជប៉ុន (CJCC)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-12 col-md-6 p-4">
+                        <img style="width: 100%; height: auto;padding-left: 10px; padding-top: 80px;" src="/images/169_21stTS workshop_leadership_activities_01.png" alt="job">
+                      </div>
+                      <div class="col-6 pt-4 p-4">
+                        <p style="font-size: 0.9em; color: brown;">WORKSHOP ON THE 21ST CENTURY SKILLS - LEADERSHIP MINDSET</p>
+                        <p style="font-size: 0.6em;"><i>2023-11-24 22:39:27</i></p>
+                        <p style="font-size: 0.8em;">On 23 November 2023, RUPP conducted workshop on the 21st Century Skills - Leadership Mindset to students, companies staffs, teachers, and school principles (in Cambodia). There are nearly 400 practicants, have joined the workshop of the 21st Century Skills, under support of EU Funds.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4 p-3">
+                  <div class="row">
+                    <div class="col-12">
+                      <img class="p-3" style="width: 100%; height: auto;" src="/images/170_Job Fair 2024.jpg" alt="job">
+                    </div>
+                    <div class="col-12 p-4">
+                      <p style="font-size: 0.9em; color: brown;">ជួបគ្នាជាថ្មីនៅក្នុងកម្មវិធី " CJCC ពិព័រណ៏ការងារ ខែកក្កដា ឆ្នាំ២០២៤ " ដែលរៀបចំឡើងដោយ មជ្ឈមណ្ឌលសហប្រតិបត្ដិការកម្ពុជា-ជប៉ុន (CJCC)</p>
+                      <p style="font-size: 0.6em;"><i>2024-07-17 22:38:12</i></p>
+                      <hr>
+                      <p style="font-size: 0.8em;">🔗 សំរាប់ព័ត៌មានបន្ថែម :
+                        => Tell : 099 918 191/096 7117 993 (Telegram)
+                        => ចូលឆានេលតេឡេក្រាមសំរាប់ឱកាសការងារ ៖ https://t.me/JobFairOfficial
+                        => Email : jobfair@cjcc.edu.kh</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 pt-4">
+            <div style="height:100%;background-color: brown;border: 1px solid rgb(171, 170, 170); color: white;">
+              <p class="p-3 fs-5 text-center" style="height:65px;">Overview of University</p>
+            </div>
+          </div>
+          <div class="col-12 pt-1">
+            <div class="row p-3 d-flex align-items-center">
+              <div class="col-12 col-md-2 mb-3 border d-flex flex-column align-items-center">
+                <img style="width: 100px; height: auto;" src="/images/Date-calendar.png" alt="">
+                <p class="pt-3 text-center" style="font-size: 0.9em; color: black;;">Established year: <span style="color: brown;font-weight: bold;"> 1960 </span></p>
+              </div>
+              <div class="col-12 col-md-2 mb-3 border d-flex flex-column align-items-center" style="margin-left: 20px;">
+                <img style="width: 100px; height: auto;" src="/images/Workers-team.png" alt="">
+                <p class="pt-3 text-center" style="font-size: 0.9em; color: black;;">Staff: <span style="color: brown;font-weight: bold;"> 1140 </span>(F: 320)</p>
+              </div>
+              <div class="col-12 col-md-2 mb-3 border d-flex flex-column align-items-center" style="margin-left: 20px;">
+                <img style="width: 100px; height: auto;" src="/images/Student-book.png" alt="">
+                <p class="pt-3 text-center" style="font-size: 0.9em; color: black;;">Student: <span style="color: brown;font-weight: bold;">30071</span>(F: 17854)</p>
+              </div>
+              <div class="col-12 col-md-2 mb-3 border d-flex flex-column align-items-center" style="margin-left: 20px;">
+                <img style="width: 100px; height: auto;" src="/images/Alumni_1.png" alt="">
+                <p class="pt-3 text-center" style="font-size: 0.9em; color: black;;">Alumni: <span style="color: brown;font-weight: bold;">688897</span></p>
+              </div>
+              <div class="col-12 col-md-2 mb-3 border d-flex flex-column align-items-center" style="margin-left: 20px;">
+                <img style="width: 100px; height: auto;" src="/images/Collaboration.png" alt="">
+                <p class="pt-3 text-center" style="font-size: 0.9em; color: black;;">	Int. Partners: <span style="color: brown;font-weight: bold;">222</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="row">
+              <div class="col-3 border" style="background-color: brown;color: white;">
+                <p class="p-3" style="text-align: center;">Find RUPP on:</p>
+              </div>
+              <div class="col-9 border" style="background-color: rgb(237, 237, 237);">
+                <p>Subscribe to the RUPP</p>
+                <p>RUPP’s Official Newspaper</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 gx-4 gy-1">
+        <div class="col-12">
+          <div class="p-3" style="height:100%; background-color: rgb(237, 237, 237);border: 1px solid rgb(171, 170, 170); border-top: 5px solid brown;">
+            <p style="font-size: 0.9em; color: black;font-weight: bold;">ទាញយកឯកសារ</p>
+            <p style="font-size: 0.9em; color: black;">ពាក្យចូលរៀនឆ្នាំសិក្សា២០២២-២០២៣</p>
+            <ol type="1">
+              <li style="font-size: 0.9em; color: brown;">ក្របសឺមីទំហំ A3</li>
+              <li style="font-size: 0.9em; color: brown;">ពាក្យចុះឈ្មោះចូលរៀនទំហំ A4</li>
+              <li style="font-size: 0.9em; color: brown;">ពាក្យចុះឈ្មោះចូលរៀនទំហំ A4</li>
+            </ol>
+            <p style="font-size: 0.9em; color: black;font-weight: bold;">ICT Master Plan and Policy</p>
+            <ul></ul>
+              <li style="font-size: 0.9em; color: brown;">ICT Master Plan Summary</li>
+              <li style="font-size: 0.9em; color: brown;">ICT Policy Summary</li>
+            </ol>
+            <p style="font-size: 0.9em; color: black;font-weight: bold;">Cambodia Journal of Basic and Applied Research</p>
+            <ul></ul>
+              <li style="font-size: 0.9em; color: brown;">CJBAR</li>
+              <li style="font-size: 0.9em; color: brown;">Research policy Khmer</li>
+              <li style="font-size: 0.9em; color: brown;">Research policy English</li>
+              <li style="font-size: 0.9em; color: brown;">URM-RUPP-20-08-2023</li>
+            </ol>
+          </div>
+        </div>
+        <div class="col-12 pt-4">
+          <div class="p-3" style="height:100%; background-color: rgb(237, 237, 237);border: 1px solid rgb(171, 170, 170); border-top: 5px solid brown;">
+            <p style="font-size: 0.9em; color: black;;">NOTICE BOARD</p>
+            <ul>
+              <li>New Intake of Master Program in IT Engineering</li>
+              <li>New Intake of Master's Program in Developement Studies</li>
+              <li>New Intake of Master Program in Education</li>
+              <li>New Intake of Master Program in Climate Change</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 pt-4">
+          <div class="p-3" style="height:100%; background-color: rgb(237, 237, 237);border: 1px solid rgb(171, 170, 170); border-top: 5px solid brown;">
+            <p style="font-size: 0.9em; color: black;;">HOTSPOT</p>
+            <p class="p-3" style="background-color: #f5c979;border: 1px solid rgb(239, 12, 12);">RUPP's hotspot is open for RUPP's staff to register now. Click register here!</p>
+          </div>
+        </div>
+        <div class="col-12 pt-4">
+          <div class="p-3" style="height:100%;background-color: rgb(237, 237, 237);border: 1px solid rgb(171, 170, 170); border-top: 5px solid brown;">
+            <p style="font-size: 0.9em; color: black;;">UN APCICT E-LEARNING</p>
+            <img style="width: 100%;height: auto;" src="/images/elearning.gif" alt="nil">
+          </div>
+        </div>
+        <div class="col-12 pt-4">
+          <div class="p-3" style="height:100%; background-color: rgb(237, 237, 237);border: 1px solid rgb(171, 170, 170); border-top: 5px solid brown;">
+            <p style="font-size: 0.9em; color: black;;">BEST IT EDUCATION INSTITUTION 2011 & 2012</p>
+            <img style="width: 100%;height: auto;" src="/images/itaward2011.jpg" alt="nil">
+            <p class="pt-3 text-center" style="font-size: 0.9em; color: black;;">ICT AWARD</p>
+          </div>
+        </div>
+        <div class="col-12 pt-4 pb-3">
+          <div class="p-3" style="height:100%;background-color: rgb(237, 237, 237);border: 1px solid rgb(171, 170, 170); border-top: 5px solid brown;">
+            <p style="font-size: 0.9em; color: black;;">STUDENT LIFE</p>
+            <img style="width: 100%;height: auto;" src="/images/studentlife.jpg" alt="nil">
+            <p class="pt-3 text-center" style="font-size: 0.9em; color: black;;">Foreign students who are interested in studying in Cambodia should first approach their national government.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container pt-2" style="border-top: 4px solid brown; background-color: rgb(237, 237, 237);">
+    <footer class="text-center pt-4 pb-4 ">
+        Copyright &copy; in 2024, Designed by Mr. Sem Sethy
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal University of Phnom Penh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .carousel-caption {
+            position: absolute;
+            bottom: 20px;
+            left: 15%;
+            right: 15%;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .header1 header {
+            margin: 0;
+        }
+
+        .carousel-caption p {
+            color: white;
+            backdrop-filter: blur(5px);
+        }
+
+        #navbar1 .nav-link {
+            color: brown;
+            padding: 10px;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 0.8em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #navbar1 .nav-link:hover {
+            color: rgb(2, 2, 2) !important;
+        }
+
+        #nav2 {
+            background-color: brown;
+        }
+
+        .nav-item .nav-link {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+
+        .nav-item .nav-link:hover {
+            text-decoration: none;
+        }
+
+        #nav2 .nav-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            padding: 10px 0;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 0.8em;
+        }
+
+        #nav2 .nav-link:hover {
+            background-color: rgba(230, 144, 15, 0.936);
+            color: #ffa600;
+        }
+
+        #slides img {
+            width: 100%;
+            height: auto;
+        }
+
+        .caption {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+
+        .separator {
+            position: absolute;
+            margin-top: -29px;
+            line-height: 1;
+        }
+
+        /* .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        } */
+
+        /* Make contact info section responsive */
+        @media (max-width: 768px) {
+            .contact-info {
+                text-align: center;
+            }
+
+            .contact-info img {
+                max-width: 100%;
+            }
+        }
+
+        /* Make content section responsive */
+        @media (max-width: 992px) {
+            .content {
+                margin-left: 0;
+            }
+        }
+
+        .card {
+            border-top: 5px solid brown;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-md" id="navbar1" style="background-color: rgb(237, 237, 237);">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+                aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">PROJECT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="management.html">MANAGEMENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="foundation.html">FOUNDATION STUDIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iro.html">IRO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="graduate.html">GRADUATE PROGRAMS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="elibrary.html">E-LIBRARY</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+      
+      <div class="container text-black text-center">
+        <div class="head2 d-flex align-items-center flex-column flex-md-row" style="background-color: rgb(237, 237, 237);padding-right: 10px;">
+          <div class="logo me-3">
+            <img src="/images/rupp_logo.png" alt="rupp_logo"> 
+          </div>
+          <div class="header1">
+            <header class="h5 py-3" style="font-size: 1.3rem;">សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ</header> 
+            <header class="h6 py-3" style="font-size: 0.8rem;">ROYAL UNIVERSITY OF PHNOM PENH</header> 
+          </div>
+          <div class="ms-auto align-self-end">
+            <h6 style="font-size: 1em;color: #895a03;">Education, Research, and Service to Society</h6>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-12">
+            <nav class="nav justify-content-center" id="nav2">
+              <a class="nav-link active text-white" href="science.html">FACULTY OF SCIENCE</a>
+              <a class="nav-link active text-white" href="humanities.html">FACULTY OF SOCIAL SCIENCE AND HUMANITIES</a>
+              <a class="nav-link active text-white" href="engineering.html">FACULTY OF ENGINEERING</a>
+              <a class="nav-link active text-white" href="studies.html">FACULTY OF DEVELOPMENT STUDIES</a>
+              <a class="nav-link active text-white" href="education.html">FACULTY OF EDUCATION</a>
+              <a class="nav-link active text-white" href="language.html">INSTITUTE OF FOREIGN LANGUAGES</a>
+              <a class="nav-link active text-white" href="policy.html">INSTITUTE OF INTERNATIONAL STUDIES AND PUBLIC POLICY</a>
+              <a class="nav-link active text-white" href="centers.html">CENTERS</a>
+              <a class="nav-link active text-white" href="offices.html">OFFICES</a>
+              <a class="nav-link active text-white" href="https://rupp.edu.kh/ICN-2DMP-QGC/" target="_blank">CONFERENCES</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    <div class="container pt-3">
+        <div class="row">
+            <div class="col-lg-8 col-12">
+                <div class="p-3 card">
+                    <p class="fs-3 text-left">Institute of Foreign Languages</p>
+                    <img style="width: 100%; height: auto;" src="/images/mainfaculty.jpg" alt="nil">
+                    <p>Royal University of Phnom Penh (RUPP) hosts around 22,000 students in undergraduate and postgraduate programs. It offers degrees in fields such as sciences, humanities and social sciences, engineering, education, and foreign languages.</p>
+                    <p>RUPP provides Cambodia's foremost degree-level language programs through the Institute of Foreign Languages (IFL). RUPP has full membership in the ASEAN University Network (AUN).</p>
+                    <p>There are currently 6 departments at the Institute of Foreign Languages, namely Department of English, French, Japanese, Korean, Chinese, and Thai. Currently, there are about 5,000 students studying at IFL.</p>
+                    <p>RUPP has one main library – Hun Sen Library. It was opened on the 7th of January 1997 by Prime Minister Hun Sen. The library has a collection of more than 100,000 volumes in Khmer, English and French, and some volumes in Japanese, Thai, Chinese and Vietnamese, as well as smaller collections of videos, audio cassettes, CDs/DVDs and electronic resources.</p>
+                    <p>IFL also has its own library called Self-Access Centre (SAC) with a collection of about 11,000 volumes in English, French, Chinese, Japanese, Korean and Thai languages. The SAC houses an extensive collection of reading, listening and video kits for language and vocabulary skills development.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="mb-3">
+                    <div class="p-3 card mb-3">
+                        <p class="fw-bold">Contact Info</p>
+                        <hr>
+                        <img src="/images/contact.jpg" style="width: 100%; height: auto;" alt="Contact">
+                        <p>Tel: (855) 23-885-419</p>
+                        <p>Email: info.ifl@rupp.edu.kh</p>
+                        <p>Director: Mr. Tith Mab (Email: tith.mab@rupp.edu.kh)</p>
+                        <p>Deputy Directors:</p>
+                        <ul>
+                            <li>Mrs. Loch Leaksmy (Email: loch.leaksmy@rupp.edu.kh)</li>
+                            <li>Dr. Vann Moniroth (Email: vann.moniroith@rupp.edu.kh)</li>
+                            <li>Mr. Om Soryong (Email: om.soryong@rupp.edu.kh)</li>
+                        </ul>
+                    </div>
+                    <div class="p-3 card mb-3">
+                        <p class="fw-bold">STUDENT LIFE</p>
+                        <hr>
+                        <img src="/images/studentlife.jpg" style="width: 100%; height: auto;" alt="Student Life">
+                        <p>Foreign students interested in studying in Cambodia should first approach their national government.</p>
+                    </div>
+                    <div class="p-3 card">
+                        <p class="fw-bold">Scholarship</p>
+                        <hr>
+                        <img src="/images/scholarship.jpg" style="width: 100%; height: auto;" alt="Scholarship">
+                        <p>RUPP provides a number of scholarship opportunities for students.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-2" style="border-top: 4px solid brown; background-color: rgb(237, 237, 237);">
+        <footer class="text-center pt-4 pb-4">
+            Copyright &copy; in 2024, Designed by Mr. Sem Sethy
+        </footer>
+    </div>
+
+</body>
+
+</html>
